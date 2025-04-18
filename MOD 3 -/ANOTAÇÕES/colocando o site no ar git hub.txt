@@ -1,0 +1,9 @@
+para colocar o site no ar, precisa ter uma conta no GitHub e git hubpags
+para poder esta hospedando o seu site no ar.
+
+primeiro 
+
+no inicio do GitHub
+Settings> Pages> 
+na parte de pages > GitHub Pages
+Source > para ativar o GitHub Pages > de
