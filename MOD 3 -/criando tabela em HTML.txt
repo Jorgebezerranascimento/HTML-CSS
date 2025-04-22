@@ -1,0 +1,43 @@
+criando tabela em HTML
+
+criando a primeira tabela no excel
+
+HERAQUIA DE TABELAS (SIMPLES)
+TABLE = tabela
+<tr></tr> TABLE ROW = linha de tabela
+<th></th>	TABLE HEADER = cabeçalho de tabela
+<td></td>	TABLE DATA = dados de tabelas
+e obrigado a colocar os dois dados
+
+CONFIGURAÇÃOE DE TABELA: BOYD	
+
+td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;/*alinhamento horizontal*/
+            vertical-align: bottom;/*celulas*/
+        }
+
+<!--
+        ANATOMIA PARA TABELAS GRANDES.
+         TABLE
+	    CAPTION
+            THEAD cabeçalho
+                TR, TD, TH
+            TBODY corpo
+                TR, TD, TH
+            TFOOT Roda Pé
+                TR, TD, TH
+    -->   
+
+todos os TH vais usar 
+
+<th scope="col">Estado</th> coluna de uma tabela com o nome de 	ESTADOS
+<th scope="col">População</th> coluna de uma tabela com o total de HBITANTES
+<th scope="row">Total de Habitantes</th> linha de uma tabela que a ponta o total de HABITANTES DA TABELA	
+
+
+CONFIGURAÇÕES DE TABELA NA TELA DE UM CELULAR
+div#container {
+            overflow-x: auto  (PODE SE USAR TAMBEM hidden, scroll)
+        }
