@@ -1,0 +1,6 @@
+<iframe src="paginasextras/page004.html" sandbox="allow-same-origin allow-forms allow-scripts"
+ referrerpolicy="no-referrer">
+
+sandbox="allow-same-origin allow-forms allow-scripts" para ficar limitado.
+sandbox="sandbox" liga todas a segurança no máximo
+sandbox="allow-same-origin"
