@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+        div.quadrado {
+            display: inline-block;
+            border: 5px solid black;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            width: 300px;
+            height: 300px;
+
+        }
+        
+        div#q1 {
+            background-color: aqua;
+        }
+        
+        div#q2 {
+            background-image: linear-gradient(to bottom, rgb(0, 255, 4), rgb(72, 0, 255));  
+        }
+        
+        div#q3 {
+            background-image: url(imagens/pattern003.png);
+        }
+        p {
+           font-family: 'Courier New', Courier, monospace;
+           color: rgb(252, 16, 16);
+           border-radius: 0%;
+        }
+        h1 {
+            color: white;
+            outline: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quadrado" id="q1">
+       <p>caixa economica</p> 
+    </div>
+    <div class="quadrado" id="q2">
+        estamos precisando de gente
+    </div>
+    <div class="quadrado" id="q3">
+        muitos pensam que vai da certo
+    </div>
+    <h1>
+        estamos aprendendo a colocar cores em caixas
+    </h1>
+</body>
+</html>

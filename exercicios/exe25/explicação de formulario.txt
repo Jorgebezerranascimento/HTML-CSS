@@ -1,0 +1,10 @@
+<form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isenha">senha:</label>
+            <input type="text" name="senha" id="isenha"></p>
+        <p><input type="submit" value="enviar"></p>
+        
+    </form>
+
+explicação de um formulário, usar label e obrigatório, para chamar o arquivo php.
